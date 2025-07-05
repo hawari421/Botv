@@ -76,7 +76,7 @@ app.get('/login', (req, res) => {
 // Login POST
 app.post('/login', (req, res) => {
   const pass = req.body.pass;
-  if (pass === 'admin123') {  // Change password here
+  if (pass === 'darkstarxd') {  // Change password here
     req.session.authenticated = true;
     res.redirect('/');
   } else {
